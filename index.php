@@ -9,7 +9,7 @@ include 'includes/header.php';
     <div class="container">
         <h1>Get Ready With Me</h1>
         <p>L'application mobile de marketplace moderne qui révolutionne l'achat et la vente au Burkina Faso. Connectez-vous avec confiance grâce à notre système sécurisé et notre vérification KYC complète.</p>
-        <a href="features.php" class="cta-button">Découvrir les Fonctionnalités</a>
+        <a href="features.html" class="cta-button">Découvrir les Fonctionnalités</a>
     </div>
 </section>
 
@@ -24,7 +24,7 @@ include 'includes/header.php';
                 <h3>Notre Vision</h3>
                 <p>Nous créons un écosystème numérique robuste qui facilite les échanges commerciaux tout en garantissant la sécurité et la confiance entre tous les acteurs du marché.</p>
                 <p>Notre application utilise une architecture microservices moderne avec des technologies de pointe comme React Native pour le mobile et Node.js pour le backend.</p>
-                <a href="about.php" class="btn btn-primary">En Savoir Plus</a>
+                <a href="about.html" class="btn btn-primary">En Savoir Plus</a>
             </div>
             <div>
                 <h3>Pourquoi Nous Choisir ?</h3>
@@ -178,7 +178,7 @@ include 'includes/header.php';
         </div>
         
         <div style="text-align: center; margin-top: 2rem;">
-            <a href="testimonials.php" class="btn btn-primary">Voir Tous les Témoignages</a>
+            <a href="testimonials.html" class="btn btn-primary">Voir Tous les Témoignages</a>
         </div>
     </div>
 </section>
@@ -189,8 +189,8 @@ include 'includes/header.php';
         <h2 style="color: #fff; margin-bottom: 2rem;">Prêt à Rejoindre Notre Marketplace ?</h2>
         <p style="font-size: 1.2rem; margin-bottom: 2rem; color: #ccc;">Téléchargez l'application Get Ready With Me et commencez à vendre, acheter ou livrer dès aujourd'hui.</p>
         <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
-            <a href="contact.php" class="btn btn-secondary">Nous Contacter</a>
-            <a href="user-roles.php" class="btn btn-secondary">Découvrir les Rôles</a>
+            <a href="contact.html" class="btn btn-secondary">Nous Contacter</a>
+            <a href="user-roles.html" class="btn btn-secondary">Découvrir les Rôles</a>
         </div>
     </div>
 </section>

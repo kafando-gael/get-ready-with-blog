@@ -298,8 +298,8 @@ include 'includes/header.php';
         <h2 style="color: #fff; margin-bottom: 2rem;">Prêt à Vous Vérifier ?</h2>
         <p style="font-size: 1.2rem; margin-bottom: 2rem; color: #ccc;">Rejoignez notre communauté vérifiée et bénéficiez de tous les avantages de Get Ready With Me.</p>
         <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
-            <a href="user-roles.php" class="btn btn-secondary">Découvrir les Rôles</a>
-            <a href="contact.php" class="btn btn-secondary">Nous Contacter</a>
+            <a href="user-roles.html" class="btn btn-secondary">Découvrir les Rôles</a>
+            <a href="contact.html" class="btn btn-secondary">Nous Contacter</a>
         </div>
     </div>
 </section>

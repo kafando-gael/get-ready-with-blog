@@ -1,0 +1,26 @@
+{
+    "name": "Get Ready With Me - Marketplace Mobile App",
+    "short_name": "Get Ready With Me",
+    "description": "Application mobile de marketplace moderne développée par LASERT SARL",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#000000",
+    "orientation": "portrait-primary",
+    "icons": [
+        {
+            "src": "/images/favicon.svg",
+            "sizes": "any",
+            "type": "image/svg+xml",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "/images/logo.svg",
+            "sizes": "any",
+            "type": "image/svg+xml"
+        }
+    ],
+    "categories": ["business", "shopping", "productivity"],
+    "lang": "fr",
+    "dir": "ltr"
+}

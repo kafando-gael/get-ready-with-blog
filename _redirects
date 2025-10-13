@@ -1,0 +1,17 @@
+# Redirections pour Get Ready With Me
+
+# Redirections des anciennes URLs PHP vers les nouvelles HTML
+/index.php /index.html 301
+/about.php /about.html 301
+/features.php /features.html 301
+/user-roles.php /user-roles.html 301
+/kyc.php /kyc.html 301
+/testimonials.php /testimonials.html 301
+/contact.php /contact.html 301
+
+# Redirection du domaine www vers le domaine principal
+https://www.getreadywithme.site/* https://getreadywithme.site/:splat 301
+
+# Redirection de HTTP vers HTTPS
+http://getreadywithme.site/* https://getreadywithme.site/:splat 301
+http://www.getreadywithme.site/* https://getreadywithme.site/:splat 301

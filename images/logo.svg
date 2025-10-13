@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="200" height="60" viewBox="0 0 200 60" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background circle -->
+  <circle cx="30" cy="30" r="25" fill="none" stroke="#000" stroke-width="3"/>
+  
+  <!-- Clock hands representing "Get Ready" -->
+  <line x1="30" y1="30" x2="30" y2="15" stroke="#000" stroke-width="3" stroke-linecap="round"/>
+  <line x1="30" y1="30" x2="40" y2="30" stroke="#000" stroke-width="2" stroke-linecap="round"/>
+  
+  <!-- Small dots on clock -->
+  <circle cx="30" cy="30" r="2" fill="#000"/>
+  
+  <!-- Text -->
+  <text x="70" y="25" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#000">Get Ready</text>
+  <text x="70" y="45" font-family="Arial, sans-serif" font-size="14" fill="#000">With Me</text>
+  
+  <!-- Decorative arrow pointing right -->
+  <path d="M 150 30 L 170 30 M 165 25 L 170 30 L 165 35" stroke="#000" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

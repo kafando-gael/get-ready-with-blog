@@ -1,0 +1,44 @@
+# Fichiers système
+.DS_Store
+Thumbs.db
+*.tmp
+*.temp
+
+# Fichiers de développement
+*.log
+*.cache
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Dossiers de déploiement
+deploy/
+build/
+dist/
+
+# Fichiers PHP de développement
+convert_to_static.php
+server.php
+
+# Fichiers de sauvegarde
+*.bak
+*.backup
+*~
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Node modules (si applicable)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Fichiers temporaires
+*.tmp
+*.temp

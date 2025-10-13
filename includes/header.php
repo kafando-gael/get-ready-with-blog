@@ -15,7 +15,7 @@
 <body>
     <header class="header">
         <nav class="nav-container">
-            <a href="index.php" class="logo-link">
+            <a href="index.html" class="logo-link">
                 <img src="images/logo.svg" alt="Get Ready With Me Logo" class="logo">
                 <span class="logo-text">Get Ready With Me</span>
             </a>
@@ -29,12 +29,12 @@
             
             <!-- Navigation menu -->
             <ul class="nav-menu">
-                <li><a href="index.php">Accueil</a></li>
-                <li><a href="about.php">À Propos</a></li>
-                <li><a href="features.php">Fonctionnalités</a></li>
-                <li><a href="user-roles.php">Rôles</a></li>
-                <li><a href="testimonials.php">Témoignages</a></li>
-                <li><a href="contact.php">Contact</a></li>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="about.html">À Propos</a></li>
+                <li><a href="features.html">Fonctionnalités</a></li>
+                <li><a href="user-roles.html">Rôles</a></li>
+                <li><a href="testimonials.html">Témoignages</a></li>
+                <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
     </header>

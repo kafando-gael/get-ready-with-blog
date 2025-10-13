@@ -10,13 +10,13 @@
                 
                 <div class="footer-section">
                     <h3>Navigation</h3>
-                    <p><a href="index.php">Accueil</a></p>
-                    <p><a href="about.php">À Propos</a></p>
-                    <p><a href="features.php">Fonctionnalités</a></p>
-                    <p><a href="user-roles.php">Rôles Utilisateurs</a></p>
-                    <p><a href="kyc.php">Vérification KYC</a></p>
-                    <p><a href="testimonials.php">Témoignages</a></p>
-                    <p><a href="contact.php">Contact</a></p>
+                    <p><a href="index.html">Accueil</a></p>
+                    <p><a href="about.html">À Propos</a></p>
+                    <p><a href="features.html">Fonctionnalités</a></p>
+                    <p><a href="user-roles.html">Rôles Utilisateurs</a></p>
+                    <p><a href="kyc.html">Vérification KYC</a></p>
+                    <p><a href="testimonials.html">Témoignages</a></p>
+                    <p><a href="contact.html">Contact</a></p>
                 </div>
                 
                 <div class="footer-section">

@@ -5,8 +5,14 @@
 /about.php /about.html 301
 
 # Redirection du domaine www vers le domaine principal
-https://www.getreadywithme.site/* https://getreadywithme.site/:splat 301
+https://www.lesboutik.com/* https://lesboutik.com/:splat 301
 
 # Redirection de HTTP vers HTTPS
-http://getreadywithme.site/* https://getreadywithme.site/:splat 301
-http://www.getreadywithme.site/* https://getreadywithme.site/:splat 301
+http://lesboutik.com/* https://lesboutik.com/:splat 301
+http://www.lesboutik.com/* https://lesboutik.com/:splat 301
+
+# Redirection de l'ancien domaine vers le nouveau
+https://getreadywithme.site/* https://lesboutik.com/:splat 301
+https://www.getreadywithme.site/* https://lesboutik.com/:splat 301
+http://getreadywithme.site/* https://lesboutik.com/:splat 301
+http://www.getreadywithme.site/* https://lesboutik.com/:splat 301

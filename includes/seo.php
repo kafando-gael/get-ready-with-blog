@@ -28,10 +28,11 @@ echo '<meta property="twitter:image" content="https://getreadywithme.site/images
 // Canonical URL
 echo '<link rel="canonical" href="https://getreadywithme.site' . (isset($_SERVER['REQUEST_URI']) ? $_SERVER['REQUEST_URI'] : '') . '">' . "\n";
 
-// Favicons
-echo '<link rel="icon" type="image/x-icon" href="/favicon.ico">' . "\n";
+// Favicons - Multiple formats for better compatibility
+echo '<link rel="icon" type="image/svg+xml" href="/favicon.svg">' . "\n";
 echo '<link rel="icon" type="image/svg+xml" href="/images/favicon.svg">' . "\n";
 echo '<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon.svg">' . "\n";
+echo '<link rel="shortcut icon" href="/favicon.svg">' . "\n";
 echo '<link rel="manifest" href="/site.webmanifest">' . "\n";
 
 // JSON-LD Structured Data

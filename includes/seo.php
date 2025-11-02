@@ -1,27 +1,27 @@
 <?php
 // SEO Meta Tags - Included separately to keep header clean
 if (!isset($page_title)) $page_title = '';
-if (!isset($page_description)) $page_description = 'Get Ready With Me - Application mobile de marketplace moderne avec authentification sécurisée, KYC, et gestion des rôles utilisateurs.';
+if (!isset($page_description)) $page_description = 'LesBoutik.com - Plateforme marketplace moderne développée par LASERT SARL au Burkina Faso.';
 
 // Basic SEO
 echo '<meta name="description" content="' . htmlspecialchars($page_description) . '">' . "\n";
-echo '<meta name="keywords" content="marketplace, mobile app, e-commerce, Burkina Faso, LASERT SARL, Get Ready With Me, Gueswende Kafando, React Native, Node.js, microservices, Orange Money, Moov Money, Wave, livraison, vendeur, acheteur, livreur">' . "\n";
+echo '<meta name="keywords" content="marketplace, mobile app, e-commerce, Burkina Faso, LASERT SARL, LesBoutik.com, Gueswende Kafando, React Native, Node.js, microservices, Orange Money, Moov Money, Wave, livraison, vendeur, acheteur, livreur">' . "\n";
 echo '<meta name="author" content="Gueswende Kafando - LASERT SARL">' . "\n";
 echo '<meta name="robots" content="index, follow">' . "\n";
 
 // Open Graph / Facebook
 echo '<meta property="og:type" content="website">' . "\n";
 echo '<meta property="og:url" content="https://getreadywithme.site' . (isset($_SERVER['REQUEST_URI']) ? $_SERVER['REQUEST_URI'] : '') . '">' . "\n";
-echo '<meta property="og:title" content="' . ($page_title ? $page_title . ' - ' : '') . 'Get Ready With Me - Marketplace Mobile App">' . "\n";
+echo '<meta property="og:title" content="' . ($page_title ? $page_title . ' - ' : '') . 'LesBoutik.com - Marketplace Mobile App">' . "\n";
 echo '<meta property="og:description" content="' . htmlspecialchars($page_description) . '">' . "\n";
 echo '<meta property="og:image" content="https://getreadywithme.site/images/logo.svg">' . "\n";
-echo '<meta property="og:site_name" content="Get Ready With Me">' . "\n";
+echo '<meta property="og:site_name" content="LesBoutik.com">' . "\n";
 echo '<meta property="og:locale" content="fr_FR">' . "\n";
 
 // Twitter
 echo '<meta property="twitter:card" content="summary_large_image">' . "\n";
 echo '<meta property="twitter:url" content="https://getreadywithme.site' . (isset($_SERVER['REQUEST_URI']) ? $_SERVER['REQUEST_URI'] : '') . '">' . "\n";
-echo '<meta property="twitter:title" content="' . ($page_title ? $page_title . ' - ' : '') . 'Get Ready With Me - Marketplace Mobile App">' . "\n";
+echo '<meta property="twitter:title" content="' . ($page_title ? $page_title . ' - ' : '') . 'LesBoutik.com - Marketplace Mobile App">' . "\n";
 echo '<meta property="twitter:description" content="' . htmlspecialchars($page_description) . '">' . "\n";
 echo '<meta property="twitter:image" content="https://getreadywithme.site/images/logo.svg">' . "\n";
 
@@ -39,7 +39,7 @@ echo '<script type="application/ld+json">' . "\n";
 echo '{' . "\n";
 echo '  "@context": "https://schema.org",' . "\n";
 echo '  "@type": "SoftwareApplication",' . "\n";
-echo '  "name": "Get Ready With Me",' . "\n";
+echo '  "name": "LesBoutik.com",' . "\n";
 echo '  "description": "Application mobile de marketplace moderne développée par LASERT SARL",' . "\n";
 echo '  "url": "https://getreadywithme.site",' . "\n";
 echo '  "applicationCategory": "BusinessApplication",' . "\n";

@@ -4,19 +4,13 @@
         <div class="container">
             <div class="footer-content">
                 <div class="footer-section">
-                    <h3>Get Ready With Me</h3>
-                    <p>Application mobile de marketplace moderne développée par LASERT SARL. Connectez acheteurs, vendeurs et livreurs sur une plateforme sécurisée et intuitive.</p>
+                    <h3>LesBoutik.com</h3>
+                    <p>Plateforme marketplace moderne développée par LASERT SARL. Connectez acheteurs, vendeurs et livreurs sur une plateforme sécurisée et intuitive.</p>
                 </div>
                 
                 <div class="footer-section">
                     <h3>Navigation</h3>
-                    <p><a href="index.html">Accueil</a></p>
                     <p><a href="about.html">À Propos</a></p>
-                    <p><a href="features.html">Fonctionnalités</a></p>
-                    <p><a href="user-roles.html">Rôles Utilisateurs</a></p>
-                    <p><a href="kyc.html">Vérification KYC</a></p>
-                    <p><a href="testimonials.html">Témoignages</a></p>
-                    <p><a href="contact.html">Contact</a></p>
                 </div>
                 
                 <div class="footer-section">
@@ -39,8 +33,8 @@
             </div>
             
             <div class="footer-bottom">
-                <p>&copy; <?php echo date('Y'); ?> LASERT SARL. Tous droits réservés. | Get Ready With Me - Marketplace Mobile App</p>
-                <p>Développé avec ❤️ au Burkina Faso | Architecture microservices | React Native & Node.js</p>
+                <p>&copy; <?php echo date('Y'); ?> LASERT SARL. Tous droits réservés. | LesBoutik.com - Marketplace Mobile App</p>
+                <p>Développé au Burkina Faso | Architecture microservices | React Native & Node.js</p>
             </div>
         </div>
     </footer>

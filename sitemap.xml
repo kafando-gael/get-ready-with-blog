@@ -14,50 +14,10 @@
 
     <!-- About Page -->
     <url>
-        <loc>https://getreadywithme.site/about.php</loc>
-        <lastmod>2025-01-12</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-
-    <!-- Features Page -->
-    <url>
-        <loc>https://getreadywithme.site/features.php</loc>
+        <loc>https://getreadywithme.site/about.html</loc>
         <lastmod>2025-01-12</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
-    </url>
-
-    <!-- User Roles Page -->
-    <url>
-        <loc>https://getreadywithme.site/user-roles.php</loc>
-        <lastmod>2025-01-12</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-
-    <!-- KYC Page -->
-    <url>
-        <loc>https://getreadywithme.site/kyc.php</loc>
-        <lastmod>2025-01-12</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.7</priority>
-    </url>
-
-    <!-- Testimonials Page -->
-    <url>
-        <loc>https://getreadywithme.site/testimonials.php</loc>
-        <lastmod>2025-01-12</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.8</priority>
-    </url>
-
-    <!-- Contact Page -->
-    <url>
-        <loc>https://getreadywithme.site/contact.php</loc>
-        <lastmod>2025-01-12</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.7</priority>
     </url>
 
 </urlset>

@@ -1,4 +1,4 @@
-// Get Ready With Me - Main JavaScript
+// LesBoutik.com - Main JavaScript
 // Enhancements for better user experience
 
 document.addEventListener('DOMContentLoaded', function() {
@@ -204,9 +204,9 @@ document.addEventListener('DOMContentLoaded', function() {
     }
     
     // Console message for developers
-    console.log('🚀 Get Ready With Me - Website loaded successfully!');
-    console.log('💻 Developed by LASERT SARL');
-    console.log('🌍 Visit us at: https://lasertweb.com');
+    console.log('LesBoutik.com - Website loaded successfully!');
+    console.log('Developed by LASERT SARL');
+    console.log('Visit us at: https://lasertweb.com');
     
 });
 

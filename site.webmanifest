@@ -1,7 +1,7 @@
 {
-    "name": "Get Ready With Me - Marketplace Mobile App",
-    "short_name": "Get Ready With Me",
-    "description": "Application mobile de marketplace moderne développée par LASERT SARL",
+    "name": "LesBoutik.com - Marketplace Mobile App",
+    "short_name": "LesBoutik.com",
+    "description": "Plateforme marketplace moderne développée par LASERT SARL",
     "start_url": "/",
     "display": "standalone",
     "background_color": "#ffffff",

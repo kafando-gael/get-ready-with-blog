@@ -14,12 +14,7 @@ Disallow: /tmp/
 
 # Allow important pages
 Allow: /
-Allow: /about.php
-Allow: /features.php
-Allow: /user-roles.php
-Allow: /kyc.php
-Allow: /testimonials.php
-Allow: /contact.php
+Allow: /about.html
 
 # Allow static files
 Allow: /css/

@@ -20,6 +20,48 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }
     
+    // Scroll reveal animations
+    const observerOptions = {
+        threshold: 0.15,
+        rootMargin: '0px 0px -100px 0px'
+    };
+    
+    const scrollObserver = new IntersectionObserver(function(entries) {
+        entries.forEach((entry, index) => {
+            if (entry.isIntersecting) {
+                setTimeout(() => {
+                    entry.target.classList.add('visible');
+                }, index * 100);
+                scrollObserver.unobserve(entry.target);
+            }
+        });
+    }, observerOptions);
+    
+    // Observe all fade-in elements
+    document.querySelectorAll('.fade-in, .grid-item, .two-column > div').forEach(el => {
+        el.classList.add('fade-in');
+        scrollObserver.observe(el);
+    });
+    
+    // Parallax effect for hero
+    const hero = document.querySelector('.hero');
+    if (hero) {
+        window.addEventListener('scroll', function() {
+            const scrolled = window.pageYOffset;
+            const heroContent = hero.querySelector('.container');
+            if (heroContent && scrolled < hero.offsetHeight) {
+                heroContent.style.transform = `translateY(${scrolled * 0.3}px)`;
+                heroContent.style.opacity = 1 - (scrolled / hero.offsetHeight) * 0.5;
+            }
+        });
+    }
+    
+    // Add stagger animation to grid items
+    const gridItems = document.querySelectorAll('.grid-item');
+    gridItems.forEach((item, index) => {
+        item.style.transitionDelay = `${index * 0.1}s`;
+    });
+    
     // Smooth scrolling for anchor links
     const anchorLinks = document.querySelectorAll('a[href^="#"]');
     anchorLinks.forEach(link => {

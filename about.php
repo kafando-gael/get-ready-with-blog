@@ -6,8 +6,8 @@ include 'includes/header.php';
 
 <section class="hero">
     <div class="container">
-        <h1>À Propos de LesBoutik.com</h1>
-        <p>Plateforme marketplace moderne développée par LASERT SARL</p>
+        <h1>LesBoutik.com</h1>
+        <p>Plateforme marketplace nouvelle génération • Développée par LASERT SARL</p>
     </div>
 </section>
 
@@ -163,11 +163,11 @@ include 'includes/header.php';
     </div>
 </section>
 
-<section class="section" style="background: #000; color: #fff;">
-    <div class="container text-center">
-        <h2 style="color: #fff; margin-bottom: 2rem;">Contact</h2>
-        <p style="font-size: 1.2rem; margin-bottom: 2rem; color: #ccc;">Pour plus d'informations sur LesBoutik.com ou les services de LASERT SARL.</p>
-        <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
+<section class="section" style="background: linear-gradient(135deg, #000 0%, #1a1a1a 100%); color: #fff; position: relative; overflow: hidden;">
+    <div class="container text-center" style="position: relative; z-index: 1;">
+        <h2 style="color: #fff; margin-bottom: 2rem; font-family: 'Space Grotesk', sans-serif; font-size: clamp(2.5rem, 5vw, 4rem); font-weight: 800; letter-spacing: -2px;">Contactez-Nous</h2>
+        <p style="font-size: clamp(1.125rem, 2vw, 1.5rem); margin-bottom: 3rem; color: rgba(255,255,255,0.85); max-width: 700px; margin-left: auto; margin-right: auto; line-height: 1.7;">Pour plus d'informations sur LesBoutik.com ou les services de LASERT SARL.</p>
+        <div style="display: flex; gap: 1.5rem; justify-content: center; flex-wrap: wrap;">
             <a href="https://lasertweb.com" target="_blank" class="btn btn-secondary">Visiter LASERT SARL</a>
         </div>
     </div>
